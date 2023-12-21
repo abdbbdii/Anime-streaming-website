@@ -1,0 +1,865 @@
+* {
+  font-family: Poppins;
+}
+body {
+  margin: 0;
+}
+.avatar2-05png-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  right: -0.7%;
+  bottom: 0%;
+  left: 0.7%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.divprofile-avatar {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.divbtn-user-avatar {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.symbol {
+  position: relative;
+  line-height: 40px;
+}
+.divmobile-menu {
+  border-radius: 3px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px 9.337499618530273px 0px 9.662500381469727px;
+  box-sizing: border-box;
+  font-size: 24px;
+}
+.form-input {
+  outline: none;
+  font-size: 16px;
+  padding: 9.5px 15px;
+  color: #888;
+  border: none;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+.search-anime {
+  position: absolute;
+  display: inline-block;
+  max-width: 285px;
+  z-index: 2;
+  left: 15px;
+  top: 9.5px;
+}
+.wrapper-form-input {
+  position: relative;
+  border: none;
+  background-color: #343434;
+  border-radius: 57px;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.05);
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 14px;
+  color: #888;
+}
+.divheader-child {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.community {
+  text-decoration: none;
+  color: #888;
+  position: relative;
+  line-height: 20px;
+  transition: 0.3s;
+}
+.community:hover {
+  text-decoration: none;
+  color: #95ecff;
+  position: relative;
+}
+.symbol1 {
+  position: relative;
+  line-height: 16px;
+  z-index: 0;
+}
+.spannumber {
+  margin: 0 !important;
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  border-radius: 10px;
+  background-color: #f02849;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px 2.8950002193450928px 0px 3.1049997806549072px;
+  box-sizing: border-box;
+  min-width: 20px;
+  z-index: 1;
+  font-size: 12px;
+}
+.divhrn-icon {
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 11px 12.818750381469727px 13px 13.181249618530273px;
+  box-sizing: border-box;
+  position: relative;
+  font-size: 16px;
+}
+.divheader {
+  align-self: stretch;
+  background-color: #1e1e1e;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 52.5px;
+  gap: 27px;
+}
+.home-watching {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+}
+.list-of-episodes {
+  position: relative;
+}
+.frame-child {
+  align-self: stretch;
+  flex: 1;
+}
+.wrapper-frame-12-child {
+  outline: none;
+  font-size: 13px;
+  padding: 7px 15px;
+  color: #cacaca;
+  border: none;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+.search-icon {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  object-fit: cover;
+  z-index: 2;
+  left: 15px;
+  top: 8px;
+}
+.wrapper-frame-12 {
+  position: relative;
+  border: none;
+  background-color: #1e1e1e;
+  border-radius: 77px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.list-of-episodes-parent {
+  align-self: stretch;
+  background-color: #292929;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 30px;
+}
+.col1-child {
+  align-self: stretch;
+  position: relative;
+  border-top: 1px solid #95ecff;
+  box-sizing: border-box;
+  height: 1px;
+}
+.eplist {
+  left: 0.5px;
+  width: 376px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 15px 30px;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+.eplist:hover {
+  color: #95ecff;
+}
+.hidden-inventory-container {
+  position: absolute;
+  top: 727.5px;
+  left: 0.5px;
+  width: 376px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 18px 30px;
+  box-sizing: border-box;
+}
+.hidden-inventory-frame {
+  position: absolute;
+  top: 779.5px;
+  left: 0.5px;
+  width: 376px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 18px 30px;
+  box-sizing: border-box;
+}
+.frame-div {
+  position: absolute;
+  top: 831.5px;
+  left: 0.5px;
+  width: 376px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 18px 30px;
+  box-sizing: border-box;
+}
+.hidden-inventory-wrapper1 {
+  position: absolute;
+  top: 883.5px;
+  left: 0.5px;
+  width: 376px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 18px 30px;
+  box-sizing: border-box;
+}
+.col1 {
+  align-self: stretch;
+  background-color: #1e1e1e;
+  width: 376px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.playersection {
+  position: relative;
+  background: linear-gradient(180deg, #000, #1e1f21);
+  width: 872px;
+  height: 478px;
+}
+.pan-zoom-icon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+.pan-zoom-parent {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.auto-play-on-wrapper {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.playersettingssection-child {
+  flex: 1;
+  position: relative;
+  height: 19px;
+}
+.edit-watch-list {
+  position: relative;
+  color: #95ecff;
+}
+.playersettingssection {
+  align-self: stretch;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 19px;
+  text-align: left;
+}
+.info {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 151px;
+  flex-shrink: 0;
+}
+.indo-container {
+  background-color: #95ecff;
+  width: 207px;
+  height: 114px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.vidstreaming {
+  position: relative;
+  font-size: 13px;
+  color: #cacaca;
+  text-align: center;
+}
+.serverbutton {
+  cursor: pointer;
+  border: none;
+  padding: 10px 30px;
+  background-color: #343434;
+  width: 143px;
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+.serverbutton:hover {
+  background-color: #4b4b4b;
+}
+.sub-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 40px;
+}
+.servers {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px 30px;
+  gap: 10px;
+  font-size: 13px;
+  color: #95ecff;
+}
+.serversection {
+  align-self: stretch;
+  background-color: #1e1e1e;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 12px;
+  color: #000;
+}
+.watch-more-seasons {
+  margin: 0;
+  position: relative;
+  font-size: 20px;
+  font-weight: 700;
+}
+.season-1-wrapper {
+  color: #cacaca;
+  cursor: pointer;
+  border: none;
+  padding: 17px 33px;
+  background-color: transparent;
+  border-radius: 62px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-image: url("./pics/buttonbg0.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  transition: 0.3s;
+}
+.season-2-wrapper {
+  color: #95ecff;
+  cursor: pointer;
+  border: none;
+  padding: 17px 33px;
+  background-color: transparent;
+  border-radius: 62px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-image: url("./pics/buttonbg1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  border: 1px solid #95ecff;
+  transition: 0.3s;
+}
+.season-3-wrapper {
+  color: #cacaca;
+  cursor: pointer;
+  border: none;
+  padding: 17px 33px;
+  background-color: transparent;
+  border-radius: 62px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-image: url("./pics/buttonbg2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  transition: 0.3s;
+}
+.season-4-part-1-wrapper {
+  color: #cacaca;
+  cursor: pointer;
+  border: none;
+  padding: 17px 33px;
+  background-color: transparent;
+  border-radius: 62px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-image: url("./pics/buttonbg3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  transition: 0.3s;
+}
+.season-4-part-2-wrapper {
+  color: #cacaca;
+  cursor: pointer;
+  border: none;
+  padding: 17px 33px;
+  background-color: transparent;
+  border-radius: 62px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-image: url("./pics/buttonbg4.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  transition: 0.3s;
+}
+.season-5-wrapper {
+  color: #cacaca;
+  cursor: pointer;
+  border: none;
+  padding: 17px 33px;
+  background-color: transparent;
+  border-radius: 62px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-image: url("./pics/buttonbg5.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  transition: 0.3s;
+}
+.season-1-wrapper:hover {
+  color: #95ecff;
+}
+.season-3-wrapper:hover {
+  color: #95ecff;
+}
+.season-4-part-1-wrapper:hover {
+  color: #95ecff;
+}
+.season-4-part-2-wrapper:hover {
+  color: #95ecff;
+}
+.season-5-wrapper:hover {
+  color: #95ecff;
+}
+
+.seasonssection {
+  align-self: stretch;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.col2 {
+  align-self: stretch;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px;
+  gap: 10px;
+  text-align: center;
+}
+.col1-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-item {
+  position: relative;
+  width: 187px;
+  height: 260px;
+  object-fit: cover;
+}
+.idly-indulging-in {
+  position: relative;
+  font-size: 12px;
+  display: inline-block;
+  width: 361px;
+  height: 225px;
+  flex-shrink: 0;
+}
+.what-do-you {
+  align-self: stretch;
+  position: relative;
+  font-size: 13px;
+  text-align: center;
+}
+.parent {
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px;
+  gap: 10px;
+}
+.h2 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+}
+.boring {
+  position: relative;
+  font-size: 16px;
+  color: #000;
+}
+.group {
+  align-self: stretch;
+  flex: 1;
+  background-color: #cbcbcb;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+.container {
+  align-self: stretch;
+  flex: 1;
+  background-color: #dcdcdc;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+.parent1 {
+  align-self: stretch;
+  flex: 1;
+  background-color: #e8e8e9;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+.frame-container {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 25px;
+}
+.votingsection {
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 361px;
+  height: 182px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangle-parent {
+  height: 767px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+  font-size: 20px;
+  color: #fff;
+}
+.frame-parent {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  font-size: 13px;
+  color: #cacaca;
+}
+.home-watching-jujutu-kaisen-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 26px;
+  text-align: left;
+  font-size: 20px;
+  color: #fff;
+}
+.body {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+  background-image: url("./pics/blurBg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.a-z-list {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: 22.4px;
+  line-height: 22.4px;
+  font-weight: 600;
+  display: inline-block;
+  max-height: 22.399999618530273px;
+}
+.search-name-by {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  font-weight: 300;
+}
+.all {
+  position: relative;
+  line-height: 17.6px;
+  font-weight: 600;
+}
+.button {
+  border-radius: 6.4px;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+.button:hover {
+  background-color: rgba(255, 255, 255, 0.24);
+}
+.item-link-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 13px;
+  font-size: 17.6px;
+}
+.button-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 13px;
+  font-size: 17.6px;
+}
+.link-terms {
+  position: relative;
+  line-height: 30px;
+  font-weight: 300;
+  display: inline-block;
+  max-width: 117px;
+}
+.item {
+  width: 116.02px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.link-dmca {
+  position: relative;
+  line-height: 30px;
+  font-weight: 300;
+  display: inline-block;
+  max-width: 43px;
+}
+.item1 {
+  width: 42.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.link-contact {
+  position: relative;
+  line-height: 30px;
+  font-weight: 300;
+  display: inline-block;
+  max-width: 59px;
+}
+.item2 {
+  width: 58.27px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.link-aniwatch {
+  position: relative;
+  line-height: 30px;
+  font-weight: 300;
+  display: inline-block;
+  max-width: 100px;
+}
+.item3 {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.list {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 40px;
+  font-size: 14.4px;
+}
+.this-prototype-has {
+  width: 100%;
+  position: relative;
+  font-size: 14.4px;
+  line-height: 20.16px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.5);
+  display: inline-block;
+  max-width: 1770px;
+  max-height: 20.15999984741211px;
+}
+.all-rights-reserved {
+  width: 100%;
+  position: relative;
+  line-height: 24px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.5);
+  display: inline-block;
+  max-width: 1770px;
+}
+.footer {
+  align-self: stretch;
+  background-color: #1e1e1e;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 29px 200px;
+  gap: 20px;
+  text-align: left;
+  font-size: 16px;
+}
+.playerpage {
+  position: relative;
+  background-color: #181818;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
+}

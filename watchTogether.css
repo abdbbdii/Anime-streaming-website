@@ -1,0 +1,549 @@
+* {
+  font-family: Poppins;
+}
+body {
+  margin: 0;
+}
+.avatar2-05png-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  right: -0.7%;
+  bottom: 0%;
+  left: 0.7%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.divprofile-avatar {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.divbtn-user-avatar {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.symbol {
+  position: relative;
+  line-height: 40px;
+}
+.divmobile-menu {
+  border-radius: 3px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px 9.337499618530273px 0px 9.662500381469727px;
+  box-sizing: border-box;
+  font-size: 24px;
+}
+.form-input {
+  outline: none;
+  font-size: 16px;
+  padding: 9.5px 15px;
+  color: #888;
+  border: none;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+.search-anime {
+  position: absolute;
+  display: inline-block;
+  max-width: 285px;
+  z-index: 2;
+  left: 15px;
+  top: 9.5px;
+}
+.wrapper-form-input {
+  position: relative;
+  border: none;
+  background-color: #343434;
+  border-radius: 57px;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.05);
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 14px;
+  color: #888;
+}
+.divheader-child {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.community {
+  text-decoration: none;
+  color: #888;
+  position: relative;
+  line-height: 20px;
+  transition: 0.3s;
+}
+.community:hover {
+  text-decoration: none;
+  color: #95ecff;
+  position: relative;
+}
+.symbol1 {
+  position: relative;
+  line-height: 16px;
+  z-index: 0;
+}
+.spannumber {
+  margin: 0 !important;
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  border-radius: 10px;
+  background-color: #f02849;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px 2.8950002193450928px 0px 3.1049997806549072px;
+  box-sizing: border-box;
+  min-width: 20px;
+  z-index: 1;
+  font-size: 12px;
+}
+.divhrn-icon {
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 11px 12.818750381469727px 13px 13.181249618530273px;
+  box-sizing: border-box;
+  position: relative;
+  font-size: 16px;
+}
+.divheader {
+  align-self: stretch;
+  background-color: #1e1e1e;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 52.5px;
+  gap: 27px;
+  text-align: center;
+}
+.streamanimetitle {
+  position: relative;
+}
+.screan {
+  position: relative;
+  background-color: #000;
+  width: 1280px;
+  height: 720px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.streampfp {
+  position: relative;
+  border-radius: 114px;
+  background-color: #ccabda;
+  width: 48px;
+  height: 48px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.room-created-by {
+  position: relative;
+  line-height: 24px;
+}
+.nekogirl98 {
+  position: relative;
+  line-height: 24px;
+  color: #fff;
+}
+.streamerdetails {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.animestreamer {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+  color: #7f8082;
+}
+.frame-child {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+.animestreamer-parent {
+  align-self: stretch;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  font-size: 14px;
+  color: #fff;
+}
+.watchtogether {
+  border-radius: 13px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 20px;
+  gap: 10px;
+}
+.streampfp1 {
+  position: relative;
+  border-radius: 114px;
+  background-color: #b0e3af;
+  width: 37px;
+  height: 37px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.streampfp-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.streamcomment {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  color: #fff;
+}
+.frame-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px;
+  gap: 10px;
+}
+.streampfp2 {
+  position: relative;
+  border-radius: 114px;
+  background-color: #d4a2f7;
+  width: 37px;
+  height: 37px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.streampfp3 {
+  position: relative;
+  border-radius: 114px;
+  background-color: #4da6ff;
+  width: 37px;
+  height: 37px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.streampfp4 {
+  position: relative;
+  border-radius: 114px;
+  background-color: #fc887b;
+  width: 37px;
+  height: 37px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.streampfp5 {
+  position: relative;
+  border-radius: 114px;
+  background-color: #ccabda;
+  width: 37px;
+  height: 37px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.streampfp6 {
+  position: relative;
+  border-radius: 114px;
+  background-color: #d8b2ab;
+  width: 37px;
+  height: 37px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.streampfp7 {
+  position: relative;
+  border-radius: 114px;
+  background-color: #cbcbcb;
+  width: 37px;
+  height: 37px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.form-input1 {
+  border: none;
+  outline: none;
+  font-size: 14px;
+  background-color: #343434;
+  flex: 1;
+  border-radius: 57px;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.05);
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 9.5px 15px;
+  box-sizing: border-box;
+  color: #888;
+}
+.button {
+  border-radius: 6.4px;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+.button:hover {
+  background-color: rgba(255, 255, 255, 0.24);
+}
+.sendbutton {
+  color: #95ecff;
+  display: flex;
+  width: 67px;
+  height: 40px;
+  padding: 9.5px 15px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 57px;
+  border: 1px solid #95ecff;
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.05);
+  transition: 0.3s;
+  background-color: transparent;
+  text-align: center;
+}
+.sendbutton:hover {
+  background-color: #95ecff;
+  color: #1e1e1e;
+}
+.form-input-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.commentsection {
+  align-self: stretch;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 435px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 20px;
+  box-sizing: border-box;
+  gap: 20px;
+  font-size: 14px;
+  color: #7f8082;
+}
+.watchtogether-parent {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+  background-image: url("./pics/watchTogetherbg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  font-size: 20px;
+  color: #cacaca;
+}
+.a-z-list {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: 22.4px;
+  line-height: 22.4px;
+  font-weight: 600;
+  display: inline-block;
+  max-height: 22.399999618530273px;
+}
+.search-name-by {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  font-weight: 300;
+}
+.all {
+  position: relative;
+  line-height: 17.6px;
+  font-weight: 600;
+}
+.button1 {
+  border-radius: 6.4px;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.button-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 13px;
+  font-size: 17.6px;
+}
+.link-terms {
+  position: relative;
+  line-height: 30px;
+  font-weight: 300;
+  display: inline-block;
+  max-width: 117px;
+}
+.item {
+  width: 116.02px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.link-dmca {
+  position: relative;
+  line-height: 30px;
+  font-weight: 300;
+  display: inline-block;
+  max-width: 43px;
+}
+.item1 {
+  width: 42.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.link-contact {
+  position: relative;
+  line-height: 30px;
+  font-weight: 300;
+  display: inline-block;
+  max-width: 59px;
+}
+.item2 {
+  width: 58.27px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.link-aniwatch {
+  position: relative;
+  line-height: 30px;
+  font-weight: 300;
+  display: inline-block;
+  max-width: 100px;
+}
+.item3 {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.list {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 40px;
+  font-size: 14.4px;
+}
+.this-prototype-has {
+  width: 100%;
+  position: relative;
+  font-size: 14.4px;
+  line-height: 20.16px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.5);
+  display: inline-block;
+  max-width: 1770px;
+  max-height: 20.15999984741211px;
+}
+.all-rights-reserved {
+  width: 100%;
+  position: relative;
+  line-height: 24px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.5);
+  display: inline-block;
+  max-width: 1770px;
+}
+.footer {
+  align-self: stretch;
+  background-color: #1e1e1e;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 29px 200px;
+  gap: 20px;
+  font-size: 16px;
+}
+.watchtogetherpage {
+  position: relative;
+  background-color: #181818;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 13px;
+  color: #fff;
+}

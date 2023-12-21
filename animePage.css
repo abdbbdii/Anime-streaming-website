@@ -1,0 +1,527 @@
+* {
+  font-family: Poppins;
+}
+body {
+  margin: 0;
+}
+.avatar2-05png-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  right: -0.7%;
+  bottom: 0%;
+  left: 0.7%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.divprofile-avatar {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.divbtn-user-avatar {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.symbol {
+  position: relative;
+  line-height: 40px;
+}
+.divmobile-menu {
+  border-radius: 3px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px 9.337499618530273px 0px 9.662500381469727px;
+  box-sizing: border-box;
+  font-size: 24px;
+}
+.form-input {
+  outline: none;
+  font-size: 16px;
+  padding: 9.5px 15px;
+  color: #888;
+  border: none;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+.search-anime {
+  position: absolute;
+  display: inline-block;
+  max-width: 285px;
+  z-index: 2;
+  left: 15px;
+  top: 9.5px;
+}
+.wrapper-form-input {
+  position: relative;
+  border: none;
+  background-color: #343434;
+  border-radius: 57px;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.05);
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 14px;
+  color: #888;
+}
+.divheader-child {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.community {
+  text-decoration: none;
+  color: #888;
+  position: relative;
+  line-height: 20px;
+  transition: 0.3s;
+}
+.community:hover {
+  text-decoration: none;
+  color: #95ecff;
+  position: relative;
+}
+.symbol1 {
+  position: relative;
+  line-height: 16px;
+  z-index: 0;
+}
+.spannumber {
+  margin: 0 !important;
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  border-radius: 10px;
+  background-color: #f02849;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px 2.8950002193450928px 0px 3.1049997806549072px;
+  box-sizing: border-box;
+  min-width: 20px;
+  z-index: 1;
+  font-size: 12px;
+}
+.divhrn-icon {
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 11px 12.818750381469727px 13px 13.181249618530273px;
+  box-sizing: border-box;
+  position: relative;
+  font-size: 16px;
+}
+.divheader {
+  align-self: stretch;
+  background-color: #1e1e1e;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 52.5px;
+  gap: 27px;
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
+}
+.genres {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 28.6px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  height: 28.6px;
+  flex-shrink: 0;
+}
+.genrestype {
+  position: relative;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #d0e6a5;
+  text-align: left;
+}
+.genrebutton {
+  cursor: pointer;
+  border: none;
+  padding: 6px 24px;
+  background-color: #343434;
+  border-radius: 6px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  transition: 0.3s;
+}
+.genrebutton:hover {
+  background-color: #424242;
+}
+.genrestype1 {
+  position: relative;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #95ecff;
+  text-align: left;
+}
+.genrestype2 {
+  position: relative;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #fc887b;
+  text-align: left;
+}
+.genrestype3 {
+  position: relative;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #ccabda;
+  text-align: left;
+}
+.genrestype4 {
+  position: relative;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #abccd8;
+  text-align: left;
+}
+.genrestype5 {
+  position: relative;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #86e3ce;
+  text-align: left;
+}
+.genrestype6 {
+  position: relative;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #d0e6a5;
+  text-align: left;
+}
+.genrestype11 {
+  position: relative;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #d8b2ab;
+  text-align: left;
+}
+.generebuttons {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.cardssection {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px 52.5px;
+  gap: 20px;
+}
+.image-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 0%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.grad {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  right: 0px;
+  bottom: 0%;
+  left: 0px;
+  background: linear-gradient(0deg, #222222, rgba(42, 44, 49, 0) 40%);
+  transition: 0.3s;
+}
+.grad:hover {
+    position: absolute;
+    height: 200%;
+    width: 100%;
+    top: -100%;
+    right: 0px;
+    bottom: 0%;
+    left: 0px;
+    background: linear-gradient(0deg, #222222, rgba(42, 44, 49, 0) 40%);
+  }
+.divfilm-poster {
+  align-self: stretch;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.1);
+  height: 290.94px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.animelabel {
+  position: relative;
+  line-height: 18.72px;
+  font-weight: 500;
+}
+.tv {
+  position: relative;
+  line-height: 24px;
+  font-weight: 300;
+  display: inline-block;
+  max-width: 207.80999755859375px;
+}
+.spandot {
+  position: relative;
+  border-radius: 2px;
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 4px;
+  height: 4px;
+}
+.sub {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px 134.9199981689453px 0px 0px;
+  gap: 9.9px;
+  color: #aaa;
+}
+.details {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+  z-index: 0;
+}
+.divflw-item {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px;
+  gap: 8px;
+}
+.divflw-item-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-size: 14.4px;
+  color: #fff;
+}
+.cardssection1 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px 200px;
+  gap: 20px;
+}
+.a-z-list {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: 22.4px;
+  line-height: 22.4px;
+  font-weight: 600;
+  display: inline-block;
+  max-height: 22.399999618530273px;
+}
+.search-name-by {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  font-weight: 300;
+}
+.all {
+  position: relative;
+  line-height: 17.6px;
+  font-weight: 600;
+}
+.button {
+  border-radius: 6.4px;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+.button:hover {
+  background-color: rgba(255, 255, 255, 0.24);
+}
+.button-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 13px;
+  font-size: 17.6px;
+}
+.link-terms {
+  position: relative;
+  line-height: 30px;
+  font-weight: 300;
+  display: inline-block;
+  max-width: 117px;
+}
+.item {
+  width: 116.02px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.link-dmca {
+  position: relative;
+  line-height: 30px;
+  font-weight: 300;
+  display: inline-block;
+  max-width: 43px;
+}
+.item1 {
+  width: 42.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.link-contact {
+  position: relative;
+  line-height: 30px;
+  font-weight: 300;
+  display: inline-block;
+  max-width: 59px;
+}
+.item2 {
+  width: 58.27px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.link-aniwatch {
+  position: relative;
+  line-height: 30px;
+  font-weight: 300;
+  display: inline-block;
+  max-width: 100px;
+}
+.item3 {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.list {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 40px;
+  font-size: 14.4px;
+}
+.this-prototype-has {
+  width: 100%;
+  position: relative;
+  font-size: 14.4px;
+  line-height: 20.16px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.5);
+  display: inline-block;
+  max-width: 1770px;
+  max-height: 20.15999984741211px;
+}
+.all-rights-reserved {
+  width: 100%;
+  position: relative;
+  line-height: 24px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.5);
+  display: inline-block;
+  max-width: 1770px;
+}
+.footer {
+  align-self: stretch;
+  background-color: #1e1e1e;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 29px 200px;
+  gap: 20px;
+  font-size: 16px;
+  color: #fff;
+}
+.animepage {
+  position: relative;
+  background-color: #181818;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  text-align: left;
+  font-size: 22px;
+  color: #95ecff;
+}
